@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+$font-family-sans-serif:  'league_spartanbold', sans-serif;
+$body-color:  #dee2e6;
+$dark:  #1b1f2d;
+$primary: #00C8E7;
+
+.social-item{
+    padding-left: 12px;
+    margin-top: 25px;
+    color: $body-color;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";

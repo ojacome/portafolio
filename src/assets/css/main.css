@@ -1,0 +1,37 @@
+html,body{
+    height: 100% !important;
+    margin: 0 !important;
+}
+
+.sidebar {
+    position: fixed;
+    /* top: 0; */
+    bottom: 0;
+    /* left: 0; */
+    z-index: 100;
+    padding: 4vw 0px;    
+}
+
+.title-home{
+    font-size: 8vh;
+}
+
+.h-link:hover {
+    width: 100%;
+    border-bottom: 2px solid #f25757;
+}
+
+.h-link {
+    width: 10%;
+    border-bottom: 2px solid transparent;
+    transition: all .50s cubic-bezier(.694,.048,.335,1);   
+}
+
+
+.text-long{
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.4em; 
+}
+
+
+
