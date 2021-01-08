@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Proyect } from 'src/app/models/proyect.model';
+import { ProyectsService } from 'src/app/services/proyects.service';
 
 @Component({
   selector: 'app-portfolio',
@@ -8,9 +10,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortfolioComponent implements OnInit {
 
-  constructor() { }
+  public proyects: Proyect[];
 
-  ngOnInit(): void {
+  constructor(
+    private proyectSvc: ProyectsService
+  ) { }
+
+  ngOnInit(): void {    
+    this.proyects = this.proyectSvc.proyects;
+    console.info(this.proyects);
   }
 
 }

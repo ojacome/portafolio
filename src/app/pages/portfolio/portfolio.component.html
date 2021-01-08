@@ -13,33 +13,37 @@
         </div>
     </div>
     
-    <div class="section">
+    <div class="section " *ngFor="let p of proyects" >
         <div class="row " >
             <div class="col-md-8 d-md-block collapse" >
-                <img src="https://www.navixy.com/wp-content/uploads/2019/06/mainscreen.jpg" alt="sd" class="w-100">
+                <ng-container *ngFor="let image of p.images">
+                    <img src="{{image.url}}" alt="sd" class="w-100" *ngIf="image.important">                
+                </ng-container>
             </div>
             <div class="col-md-4 text-end">
-                <h5 class="text-primary text-long">Tipo de proyecto</h5>
-                <h4>Nombre del proyecto</h4>
+                <h5 class="text-primary text-long">{{p.type}}</h5>
+                <h4>{{p.title}}</h4>
     
                 <div class="bg-secondary rounded p-3 my-4 content ms-md-n5" >
-                    <span class="text-long">desxcripcion larga del proyecto. lorem ipsin adf ppvm pdd m psdfpo psdfpop sppsdfop spdfposdfo psdfposfd popo spopdpsodfpo df psfposfpoo sopdfpospfdo sdp sofpopo</span>
+                    <span class="text-long">{{p.description}}}</span>
                 </div>
     
                 <div class="d-flex flex-row-reverse flex-wrap-reverse">
-                    <div class="px-2 py-1 text-long text-gray">Flex item 1</div>
-                    <div class="px-2 py-1 text-long text-gray">Flex item 2</div>
-                    <div class="px-2 py-1 text-long text-gray">Flex item 2</div>
-                    <div class="px-2 py-1 text-long text-gray">Flex item 2</div>
-                    <div class="px-2 py-1 text-long text-gray">Flex item 3</div>
+                    <div class="px-2 py-1 text-long text-gray" *ngFor="let technology of p.technologies">
+                        {{ technology }}
+                    </div>
                 </div>
     
                 <div class="d-flex flex-row-reverse flex-wrap-reverse">
                     <div class="p-3">
-                        <a href="#"><i class="fab fa-github fa-lg"></i></a>
+                        <a href="{{ p.github }}" *ngIf="p.github">
+                            <i class="fab fa-github fa-lg"></i>
+                        </a>
                     </div>
                     <div class="p-3">
-                        <a href="#"><i class="fas fa-external-link-alt fa-lg"></i></a>
+                        <a href="{{ p.web_site }}" *ngIf="p.web_site">
+                            <i class="fas fa-external-link-alt fa-lg"></i>
+                        </a>
                     </div>
                 </div>
             </div>
