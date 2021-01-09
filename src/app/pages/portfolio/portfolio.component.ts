@@ -21,4 +21,7 @@ export class PortfolioComponent implements OnInit {
     console.info(this.proyects);
   }
 
+  numPar(num: number){
+    return num%2 === 0; 
+  }
 }

@@ -5,6 +5,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { HomeComponent } from './home/home.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
+import { PipesModule } from '../pipes/pipes.module';
 
 
 @NgModule({
@@ -12,10 +13,11 @@ import { ContactComponent } from './contact/contact.component';
     ContactComponent,
     HomeComponent,
     PageNotFoundComponent,
-    PortfolioComponent
+    PortfolioComponent,
   ],
   imports: [
-    CommonModule  
+    CommonModule,
+    PipesModule
   ]
 })
 export class PagesModule { }

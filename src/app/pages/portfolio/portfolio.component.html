@@ -1,6 +1,6 @@
 <div class="container ">
     
-    <div class="section">
+    <div class="my-5">
         <div class="row">
             <div class="col">
                 <h2>Mi <span class="text-primary">trabajo</span></h2>
@@ -13,44 +13,70 @@
         </div>
     </div>
     
-    <div class="section " *ngFor="let p of proyects" >
+    <div class="section " *ngFor="let p of proyects; index as i;" >
+            
         <div class="row " >
-            <div class="col-md-8 d-md-block collapse" >
+            <div class="col-md-8 d-md-block collapse" *ngIf="i | esPar">
                 <ng-container *ngFor="let image of p.images">
-                    <img src="{{image.url}}" alt="sd" class="w-100" *ngIf="image.important">                
+                    <img src="{{image.url}}" alt="{{ p.title }}" class="w-100 rounded" *ngIf="image.important">                
                 </ng-container>
             </div>
-            <div class="col-md-4 text-end">
+
+            <div 
+            class="col-md-4 my-auto" 
+            [ngClass]="{
+                'text-end':     i | esPar,
+                'text-start':   i | esImpar
+            }">
                 <h5 class="text-primary text-long">{{p.type}}</h5>
                 <h4>{{p.title}}</h4>
     
-                <div class="bg-secondary rounded p-3 my-4 content ms-md-n5" >
-                    <span class="text-long">{{p.description}}}</span>
+                <div 
+                class="bg-secondary rounded p-3 my-4 content" 
+                [ngClass]="{
+                    'ms-md-n5':     i | esPar,
+                    'me-md-n5':   i | esImpar
+                }">
+                    <span class="text-long">{{p.description}}</span>
                 </div>
     
-                <div class="d-flex flex-row-reverse flex-wrap-reverse">
+                <div class="d-flex "
+                [ngClass]="{
+                    'flex-row-reverse':     i | esPar,
+                    'flex-row':             i | esImpar
+                }">
                     <div class="px-2 py-1 text-long text-gray" *ngFor="let technology of p.technologies">
                         {{ technology }}
                     </div>
                 </div>
     
-                <div class="d-flex flex-row-reverse flex-wrap-reverse">
-                    <div class="p-3">
-                        <a href="{{ p.github }}" *ngIf="p.github">
+                <div class="d-flex flex-row-reverse"
+                [ngClass]="{
+                    'flex-row-reverse':     i | esPar,
+                    'flex-row':             i | esImpar
+                }">
+                    <div class="p-3" *ngIf="p.github">
+                        <a href="{{ p.github }}" >
                             <i class="fab fa-github fa-lg"></i>
                         </a>
                     </div>
-                    <div class="p-3">
-                        <a href="{{ p.web_site }}" *ngIf="p.web_site">
+                    <div class="p-3" *ngIf="p.web_site">
+                        <a href="{{ p.web_site }}" >
                             <i class="fas fa-external-link-alt fa-lg"></i>
                         </a>
                     </div>
                 </div>
             </div>
+
+            <div class="col-md-8 d-md-block collapse" *ngIf="i | esImpar">
+                <ng-container *ngFor="let image of p.images">
+                    <img src="{{image.url}}" alt="{{ p.title }}" class="w-100 rounded" *ngIf="image.important">                
+                </ng-container>
+            </div>
         </div>
     </div>
 
-    <div class="section">
+    <!-- <div class="section">
     	<div class="row" >        
     	    <div class="col-md-4 text-start">
     	        <h5 class="text-primary text-long">Tipo de proyecto</h5>
@@ -82,5 +108,5 @@
     	        <img src="https://www.navixy.com/wp-content/uploads/2019/06/mainscreen.jpg" alt="sd" class="w-100">
     	    </div>
     	</div>
-    </div>
+    </div> -->
 </div>
