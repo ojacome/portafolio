@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-contact',
-  templateUrl: './contact.component.html',
+  selector: 'app-float-button',
+  templateUrl: './float-button.component.html',
   styles: [
   ]
 })
-export class ContactComponent implements OnInit {
+export class FloatButtonComponent implements OnInit {
 
   constructor() { }
 

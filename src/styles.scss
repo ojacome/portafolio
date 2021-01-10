@@ -5,6 +5,26 @@ $dark:  #1b1f2d;
 $primary: #00C8E7;
 $enable-negative-margins: true;
 
+.btn-float{
+	position:fixed;
+	width: 3em;
+	height: 3em;
+	bottom: 4vw;
+    right:  8vw;    
+    padding-top: 10px;
+    background-color: $body-color;        
+	color: $dark;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px $dark;
+}
+
+.btn-float:hover{
+    cursor: pointer;
+    color: $dark !important;
+    background-color:#cdcdcd;
+}
+
 .social-item{
     padding-left: 12px;
     margin-top: 25px;

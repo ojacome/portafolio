@@ -1,19 +1,5 @@
 
-<div class="container">
-    <div class="d-md-block sidebar collapse">        
-        <div class="d-flex flex-column animate__animated animate__fadeIn animate__delay-2s">                
-            <a class="social-item hvr-bob "  href="#">
-                <i class="fab fa-linkedin-in fa-lg "></i>
-            </a>                
-            <a class=" social-item hvr-bob"  href="#">
-                <i class="fab fa-github fa-lg"></i>
-            </a>            
-            <a class="social-item hvr-bob "  href="#">
-                <i class="fab fa-instagram fa-lg"></i>
-            </a>
-        </div>        
-    </div>
-</div>
+<app-float-social-media></app-float-social-media>
 
 <div class="container">
     <div class="row justify-content-center" style="margin-top: 10vw;">
@@ -27,9 +13,13 @@
             <p class="mt-md-4 text-long h5 animate__animated animate__fadeInUp" >
                 Soy <span class="text-primary">Ingeniero en Sistemas Computacionales</span> vivo en Guayaquil-Ecuador, me encanta la tecnología, he trabajado en el desarrollo de aplicaciones web tanto en frontend y backend.
             </p>
-            <button class="mt-md-4 btn btn-outline-primary btn-lg animate__animated animate__fadeInUp animate__slow">
+            <a 
+            routerLink="/portfolio"
+            class="mt-md-4 btn btn-outline-primary btn-lg animate__animated animate__fadeInUp animate__slow">
                 Proyectos
-            </button>
+            </a>
         </div>
     </div>                    
 </div>
+
+<app-float-button></app-float-button>
