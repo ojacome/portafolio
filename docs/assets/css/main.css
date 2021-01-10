@@ -1,0 +1,45 @@
+html,body{
+    height: 100% !important;
+    margin: 0 !important;
+}
+
+.sidebar {
+    position: fixed;    
+    bottom: 0;    
+    z-index: 100;
+    padding: 4vw 0px;    
+}
+
+.title-home{
+    font-size: 8vh;
+}
+
+.h-link:hover {
+    width: 100%;
+    border-bottom: 2px solid #f25757;
+}
+
+.h-link {
+    width: 10%;
+    border-bottom: 2px solid transparent;
+    transition: all .50s cubic-bezier(.694,.048,.335,1);   
+}
+
+
+.text-long{
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.4em; 
+}
+
+.section{
+    margin-bottom: 6em;
+}
+
+.content{
+    position: relative;    
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.text-gray{
+    color: #c4c8cc;
+}
