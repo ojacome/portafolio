@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { PipesModule } from '../pipes/pipes.module';
 import { ComponentsModule } from '../components/components.module';
+import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { ComponentsModule } from '../components/components.module';
     RouterModule,
     ComponentsModule,
     PipesModule,
-    ComponentsModule
+    ComponentsModule,
+    SharedModule
   ]
 })
 export class PagesModule { }

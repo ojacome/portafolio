@@ -25,6 +25,11 @@ $enable-negative-margins: true;
     background-color:#cdcdcd;
 }
 
+.footer-link{
+    color: $body-color !important;
+    text-decoration: none;
+}
+
 .social-item{
     padding-left: 12px;
     margin-top: 25px;
