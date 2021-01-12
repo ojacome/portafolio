@@ -26,6 +26,8 @@ export class PortfolioComponent implements OnInit {
     this.galleryOptions = [
       {
         width: '100%',
+        previewZoom: true,
+        imageArrowsAutoHide: true,
         height: '500px',
         thumbnails: false,
         imageAnimation: NgxGalleryAnimation.Fade

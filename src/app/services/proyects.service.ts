@@ -14,7 +14,7 @@ export class ProyectsService {
       {
         id: 1,
         title: "Sistema de Incidencias",
-        description: "Posee varios módulos como Roles, Reportes, Dashboard y Chat en tiempo real.",
+        description: "La aplicación consiste en el registro de incidencias que llegan al centro de atención de Claro. Posee varios módulos como Roles, Reportes, Servicios, Transacciones, Dashboard y Chat en tiempo real.",
         type: "Frontend y Backend",
         technologies: ["Angular 9", "Node js", "Express", "SqlServer"],
         images: [
@@ -214,7 +214,7 @@ export class ProyectsService {
       {
         id: 4,
         title: "Spotify Clone",
-        description: "Aprovecho el api rest de Spotify para crear una aplicación demo, la cual puedo reproducir música, buscar artistas, últimmos lanzamientos y más.",
+        description: "Aprovecho el api rest de Spotify para crear una aplicación demo, la cual puedo reproducir música, buscar artistas, últimos lanzamientos y más.",
         type: "Frontend",
         technologies: ["Angular 11"],
         images: [
@@ -269,7 +269,7 @@ export class ProyectsService {
       {
         id: 5,
         title: "Gráficos en tiempo real.",
-        description: "Elección del mejor juego del año. Las gráficas se actualizan cuando votan en la siguiente página.",
+        description: "Elección del mejor juego del año. El usuario realiza su votación y las gráficas se actualizan en tiempo real gracias a Sockets y Firebase",
         type: "Frontend y Backend",
         technologies: ["Angular 9", "Node js", "Express", "Firebase"],
         images: [

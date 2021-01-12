@@ -43,6 +43,7 @@ html,body{
 .content{
     position: relative;    
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    z-index: 1;
 }
 
 .text-gray{
@@ -50,5 +51,5 @@ html,body{
 }
 
 .ngx-gallery { 
-    display: inline-block;     
+    display: inline-block;         
 }
