@@ -16,10 +16,8 @@
     <div class="section " *ngFor="let p of proyects; index as i;" >
             
         <div class="row " >
-            <div class="col-md-8 d-md-block collapse" *ngIf="i | esPar">
-                <ng-container *ngFor="let image of p.images">
-                    <img src="{{image.url}}" alt="{{ p.title }}" class="w-100 rounded" *ngIf="image.important">                
-                </ng-container>
+            <div class="col-md-8 d-md-block collapse" *ngIf="i | esPar">                
+                <ngx-gallery [options]="galleryOptions" [images]="p.album"  class="ngx-gallery"></ngx-gallery>
             </div>
 
             <div 
@@ -69,9 +67,7 @@
             </div>
 
             <div class="col-md-8 d-md-block collapse" *ngIf="i | esImpar">
-                <ng-container *ngFor="let image of p.images">
-                    <img src="{{image.url}}" alt="{{ p.title }}" class="w-100 rounded" *ngIf="image.important">                
-                </ng-container>
+                <ngx-gallery [options]="galleryOptions" [images]="p.album" class="ngx-gallery"></ngx-gallery>
             </div>
         </div>
     </div>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgxGalleryAnimation, NgxGalleryOptions } from '@kolkov/ngx-gallery';
 import { Proyect } from 'src/app/models/proyect.model';
 import { ProyectsService } from 'src/app/services/proyects.service';
 
@@ -11,6 +12,9 @@ import { ProyectsService } from 'src/app/services/proyects.service';
 export class PortfolioComponent implements OnInit {
 
   public proyects: Proyect[];
+  public galleryOptions: NgxGalleryOptions[];
+
+  
 
   constructor(
     private proyectSvc: ProyectsService
@@ -18,10 +22,32 @@ export class PortfolioComponent implements OnInit {
 
   ngOnInit(): void {    
     this.proyects = this.proyectSvc.proyects;
-    console.info(this.proyects);
-  }
 
-  numPar(num: number){
-    return num%2 === 0; 
+    this.galleryOptions = [
+      {
+        width: '100%',
+        height: '500px',
+        thumbnails: false,
+        imageAnimation: NgxGalleryAnimation.Fade
+      },
+      // max-width 800
+      {
+        thumbnails: false,
+        breakpoint: 800,
+        width: '100%',
+        height: '400px',
+        imagePercent: 80,
+        thumbnailsPercent: 20,
+        thumbnailsMargin: 20,
+        thumbnailMargin: 20
+      },
+      // max-width 400
+      {
+        thumbnails: false,
+        breakpoint: 400,
+        preview: false
+      }
+    ];
+    
   }
 }

@@ -42,6 +42,28 @@ export class ProyectsService {
             url: "https://res.cloudinary.com/ojacome/image/upload/v1610208765/portfolio/crm4_xbzjc4.png",
             important: false
           }
+        ],
+        album: [ 
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208763/portfolio/crm_ukzj8k.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208763/portfolio/crm_ukzj8k.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208763/portfolio/crm_ukzj8k.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208764/portfolio/crm2_jvspna.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208764/portfolio/crm2_jvspna.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208764/portfolio/crm2_jvspna.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208764/portfolio/crm3_akelrd.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208764/portfolio/crm3_akelrd.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208764/portfolio/crm3_akelrd.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208765/portfolio/crm4_xbzjc4.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208765/portfolio/crm4_xbzjc4.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208765/portfolio/crm4_xbzjc4.png",
+          },
         ]
       },
       {
@@ -93,6 +115,33 @@ export class ProyectsService {
             url: "https://res.cloudinary.com/ojacome/image/upload/v1610208772/portfolio/fun7_mip072.png",
             important: false
           },
+        ],
+        album: [ 
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208771/portfolio/fun_s7sipq.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208771/portfolio/fun_s7sipq.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208771/portfolio/fun_s7sipq.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208772/portfolio/fun2_w2zywx.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208772/portfolio/fun2_w2zywx.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208772/portfolio/fun2_w2zywx.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208776/portfolio/fun3_bvq7is.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208776/portfolio/fun3_bvq7is.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208776/portfolio/fun3_bvq7is.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208772/portfolio/fun4_kfptfu.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208772/portfolio/fun4_kfptfu.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208772/portfolio/fun4_kfptfu.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208770/portfolio/fun5_fckvg2.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208770/portfolio/fun5_fckvg2.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208770/portfolio/fun5_fckvg2.png",
+          },
         ]
       },
       {
@@ -133,7 +182,34 @@ export class ProyectsService {
             important: false
           }
         ],
-        web_site: "https://adminpro-ng.herokuapp.com/login"
+        web_site: "https://adminpro-ng.herokuapp.com/login",
+        album: [ 
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208762/portfolio/adm4_zcm10a.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208762/portfolio/adm4_zcm10a.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208762/portfolio/adm4_zcm10a.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208758/portfolio/adm3_yfz0gy.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208758/portfolio/adm3_yfz0gy.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208758/portfolio/adm3_yfz0gy.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208757/portfolio/adm5_vewvgx.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208757/portfolio/adm5_vewvgx.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208757/portfolio/adm5_vewvgx.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208755/portfolio/adm_uvhcig.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208755/portfolio/adm_uvhcig.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208755/portfolio/adm_uvhcig.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208756/portfolio/adm2_hngwlb.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208756/portfolio/adm2_hngwlb.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208756/portfolio/adm2_hngwlb.png",
+          },
+        ]
       },
       {
         id: 4,
@@ -167,6 +243,28 @@ export class ProyectsService {
             important: false
           },
         ],
+        album: [ 
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610215422/portfolio/spoti_dh9xzo.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610215422/portfolio/spoti_dh9xzo.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610215422/portfolio/spoti_dh9xzo.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610215420/portfolio/spoti2_bi05cr.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610215420/portfolio/spoti2_bi05cr.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610215420/portfolio/spoti2_bi05cr.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610215420/portfolio/spoti3_fegbs6.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610215420/portfolio/spoti3_fegbs6.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610215420/portfolio/spoti3_fegbs6.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610215420/portfolio/spoti4_yds0gx.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610215420/portfolio/spoti4_yds0gx.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610215420/portfolio/spoti4_yds0gx.png",
+          },
+        ]
       },
       {
         id: 5,
@@ -200,7 +298,29 @@ export class ProyectsService {
             important: false
           },
         ],
-        web_site: "https://graficas-ng.web.app/home"
+        web_site: "https://graficas-ng.web.app/home",
+        album: [ 
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208765/portfolio/firebase_k5lgjd.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208765/portfolio/firebase_k5lgjd.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208765/portfolio/firebase_k5lgjd.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208768/portfolio/firebase2_midc7g.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208768/portfolio/firebase2_midc7g.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208768/portfolio/firebase2_midc7g.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208765/portfolio/firebase3_vmbdu6.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208765/portfolio/firebase3_vmbdu6.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208765/portfolio/firebase3_vmbdu6.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208765/portfolio/firebase4_kndlil.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208765/portfolio/firebase4_kndlil.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208765/portfolio/firebase4_kndlil.png",
+          },
+        ]
       },
       {
         id: 6,
@@ -234,7 +354,29 @@ export class ProyectsService {
             important: false
           },
         ],
-        github: "https://github.com/ojacome/blog-vue"
+        github: "https://github.com/ojacome/blog-vue",
+        album: [ 
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208762/portfolio/blog-vue_k1sdug.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208762/portfolio/blog-vue_k1sdug.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208762/portfolio/blog-vue_k1sdug.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208763/portfolio/blog-vue2_ppqpaq.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208763/portfolio/blog-vue2_ppqpaq.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208763/portfolio/blog-vue2_ppqpaq.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208762/portfolio/blog-vue3_gig9yi.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208762/portfolio/blog-vue3_gig9yi.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208762/portfolio/blog-vue3_gig9yi.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208763/portfolio/blog-vue4_mqteof.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208763/portfolio/blog-vue4_mqteof.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208763/portfolio/blog-vue4_mqteof.png",
+          },
+        ]
       },
       {
         id: 7,
@@ -268,7 +410,29 @@ export class ProyectsService {
             important: false
           },
         ],
-        github: "https://github.com/ojacome/blog-react"
+        github: "https://github.com/ojacome/blog-react",
+        album: [ 
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208760/portfolio/blog-rc_lr0wog.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208760/portfolio/blog-rc_lr0wog.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208760/portfolio/blog-rc_lr0wog.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208765/portfolio/blog-rc2_gss2g0.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208765/portfolio/blog-rc2_gss2g0.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208765/portfolio/blog-rc2_gss2g0.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208760/portfolio/blog-rc3_ereqbr.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208760/portfolio/blog-rc3_ereqbr.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208760/portfolio/blog-rc3_ereqbr.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208760/portfolio/blog-rc4_jxypqd.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208760/portfolio/blog-rc4_jxypqd.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208760/portfolio/blog-rc4_jxypqd.png",
+          },
+        ]
       },
       {
         id: 8,
@@ -308,10 +472,37 @@ export class ProyectsService {
             important: false
           },
         ],
-        github: "https://github.com/ojacome/marketplace"
+        github: "https://github.com/ojacome/marketplace",
+        album: [ 
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208759/portfolio/mark3_vfisle.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208759/portfolio/mark3_vfisle.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208759/portfolio/mark3_vfisle.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208755/portfolio/mark_vvhpae.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208755/portfolio/mark_vvhpae.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208755/portfolio/mark_vvhpae.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208759/portfolio/mark2_qe3phn.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208759/portfolio/mark2_qe3phn.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208759/portfolio/mark2_qe3phn.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208758/portfolio/mark5_ebyzmj.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208758/portfolio/mark5_ebyzmj.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208758/portfolio/mark5_ebyzmj.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208756/portfolio/mark4_aptgnh.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208756/portfolio/mark4_aptgnh.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208756/portfolio/mark4_aptgnh.png",
+          },
+        ]
       },
       {
-        id: 8,
+        id: 9,
         title: "Kiosco de Autoservicio",
         description: "Cliente: Conecel. Aplicativo muy amigable para el usuario, donde puede consultar toda información referente a su línea de teléfono, valores a pagar, consumo del mes y más.",
         type: "Aplicación de escritorio",
@@ -342,6 +533,28 @@ export class ProyectsService {
             important: false
           },
         ],
+        album: [ 
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208755/portfolio/kiosco4_k0ukyd.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208755/portfolio/kiosco4_k0ukyd.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208755/portfolio/kiosco4_k0ukyd.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208755/portfolio/kiosco5_inpqq7.png",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208755/portfolio/kiosco5_inpqq7.png",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208755/portfolio/kiosco5_inpqq7.png",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208755/portfolio/kiosco7_bezusp.jpg",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208755/portfolio/kiosco7_bezusp.jpg",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208755/portfolio/kiosco7_bezusp.jpg",
+          },
+          {
+            small: "https://res.cloudinary.com/ojacome/image/upload/v1610208772/portfolio/kiosco2_smmwry.jpg",
+            medium: "https://res.cloudinary.com/ojacome/image/upload/v1610208772/portfolio/kiosco2_smmwry.jpg",
+            big: "https://res.cloudinary.com/ojacome/image/upload/v1610208772/portfolio/kiosco2_smmwry.jpg",
+          },
+        ]
       },
     ]
   }

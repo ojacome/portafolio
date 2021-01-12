@@ -1,3 +1,5 @@
+import { NgxGalleryImage } from "@kolkov/ngx-gallery";
+
 export interface Proyect {
     id:                 number;
     title:              string;
@@ -7,6 +9,7 @@ export interface Proyect {
     images:             Array<Image>;
     github?:            string;    
     web_site?:          string;
+    album?:             NgxGalleryImage[]
 }
 
 export interface Image {

@@ -8,6 +8,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { PipesModule } from '../pipes/pipes.module';
 import { ComponentsModule } from '../components/components.module';
 import { SharedModule } from '../shared/shared.module';
+import { NgxGalleryModule } from '@kolkov/ngx-gallery';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { SharedModule } from '../shared/shared.module';
     ComponentsModule,
     PipesModule,
     ComponentsModule,
-    SharedModule
+    SharedModule,
+    NgxGalleryModule
   ]
 })
 export class PagesModule { }

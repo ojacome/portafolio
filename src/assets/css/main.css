@@ -48,3 +48,7 @@ html,body{
 .text-gray{
     color: #c4c8cc;
 }
+
+.ngx-gallery { 
+    display: inline-block;     
+}
