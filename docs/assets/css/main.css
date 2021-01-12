@@ -1,6 +1,11 @@
 html,body{
     height: 100% !important;
     margin: 0 !important;
+
+}
+
+.btn:hover{
+    opacity: 0.8 !important;
 }
 
 .sidebar {
@@ -38,8 +43,13 @@ html,body{
 .content{
     position: relative;    
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    z-index: 1;
 }
 
 .text-gray{
     color: #c4c8cc;
+}
+
+.ngx-gallery { 
+    display: inline-block;         
 }
