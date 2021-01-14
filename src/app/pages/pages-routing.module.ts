@@ -4,8 +4,8 @@ import { HomeComponent } from './home/home.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 
 const routes: Routes = [
-  { path: 'home',                   component: HomeComponent },
-  { path: 'portfolio',              component: PortfolioComponent },
+  { path: 'home',                   component: HomeComponent,       data: { title: 'Home '} },
+  { path: 'portfolio',              component: PortfolioComponent,  data: { title: 'Portfolio'} },
 ];
 
 @NgModule({
