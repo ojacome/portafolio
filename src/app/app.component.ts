@@ -19,21 +19,18 @@ export class AppComponent  implements OnDestroy, AfterViewInit {
   {    
     this.tituloSubs$ = this.getDataRuta()
     .subscribe( ({title}) => {      
-      console.info('escuchando');
       document.title = 'Jesús Olmedo | '+ title;
     })
   }
 
 
   ngAfterViewInit() {
-            console.info('cargado');
     let loader = this.renderer.selectRootElement('#loader');
     this.renderer.setStyle(loader, 'display', 'none');
   }
 
   
   ngOnDestroy(): void {
-    console.info("se desdtruye");
     this.tituloSubs$.unsubscribe();
   }
 

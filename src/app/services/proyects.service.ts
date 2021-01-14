@@ -14,7 +14,7 @@ export class ProyectsService {
       {
         id: 1,
         title: "Sistema de Incidencias",
-        description: "La aplicación consiste en el registro de incidencias que llegan al centro de atención de Claro. Posee varios módulos como Roles, Reportes, Servicios, Transacciones, Dashboard y Chat en tiempo real.",
+        description: "Cliente: Conecel. La aplicación consiste en el registro de incidencias que llegan al centro de atención de Claro. Posee varios módulos como Roles, Reportes, Servicios, Transacciones, Dashboard y Chat en tiempo real.",
         type: "Frontend y Backend",
         technologies: ["Angular 9", "Node js", "Express", "SqlServer"],
         images: [
