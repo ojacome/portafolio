@@ -1,66 +1,64 @@
 <div class="container ">
-    
+
     <div class="my-5">
         <div class="row">
             <div class="col-12 col-md-6">
                 <h2>Mi <span class="text-primary">trabajo</span></h2>
                 <p class="text-long">
                     La mayoría de proyectos he participado en todo el stack,
-                    ya sea en la empresa que trabajo o con proyectos personales.                    
-                    Cuando no estoy programando, estoy haciendo calistenia o también                    
-                    videojuegos en línea.       
+                    ya sea en la empresa que trabajo o con proyectos personales.
+                    Cuando no estoy programando, estoy haciendo calistenia o también
+                    videojuegos en línea.
                 </p>
             </div>
         </div>
     </div>
-    
-    <div class="section " *ngFor="let p of proyects; index as i;" >
-            
-        <div class="row " >
+
+    <div class="section " *ngFor="let p of proyects; index as i;">
+
+        <div class="row " [ngsReveal]="{ reset: true}">
+        <!-- <div class="row " ngsReveal> -->
             <div class="col-md-8 d-md-block collapse" *ngIf="i | esPar">                
-                <ngx-gallery [options]="galleryOptions" [images]="p.album"  class="ngx-gallery"></ngx-gallery>
+                
+                <ngx-gallery [options]="galleryOptions" [images]="p.album" class="ngx-gallery ">
+                </ngx-gallery>
+                
             </div>
 
-            <div 
-            class="col-md-4 my-auto" 
-            [ngClass]="{
-                'text-end':     i | esPar,
-                'text-start':   i | esImpar
-            }">
+            <div class="col-md-4 my-auto" [ngClass]="{
+                    'text-end':     i | esPar,
+                    'text-start':   i | esImpar
+                }">
                 <h5 class="text-primary text-long">{{p.type}}</h5>
                 <h4>{{p.title}}</h4>
-    
-                <div 
-                class="bg-secondary rounded p-3 my-4 content" 
-                [ngClass]="{
-                    'ms-md-n5':     i | esPar,
-                    'me-md-n5':   i | esImpar
-                }">
+
+                <div class="bg-secondary rounded p-3 my-4 content" [ngClass]="{
+                        'ms-md-n5':     i | esPar,
+                        'me-md-n5':   i | esImpar
+                    }">
                     <span class="text-long">{{p.description}}</span>
                 </div>
-    
-                <div class="d-flex "
-                [ngClass]="{
-                    'flex-row-reverse':     i | esPar,
-                    'flex-row':             i | esImpar
-                }">
+
+                <div class="d-flex " [ngClass]="{
+                        'flex-row-reverse':     i | esPar,
+                        'flex-row':             i | esImpar
+                    }">
                     <div class="px-2 py-1 text-long text-gray" *ngFor="let technology of p.technologies">
                         {{ technology }}
                     </div>
                 </div>
-    
-                <div class="d-flex flex-row-reverse"
-                [ngClass]="{
-                    'flex-row-reverse':     i | esPar,
-                    'flex-row':             i | esImpar
-                }">
+
+                <div class="d-flex flex-row-reverse" [ngClass]="{
+                        'flex-row-reverse':     i | esPar,
+                        'flex-row':             i | esImpar
+                    }">
                     <div class="p-3" *ngIf="p.github">
-                        <a href="{{ p.github }}" >
+                        <a href="{{ p.github }}">
                             <i class="fab fa-github fa-lg"></i>
                         </a>
                     </div>
                     <div class="p-3" *ngIf="p.web_site">
-                        <a href="{{ p.web_site }}" >
+                        <a href="{{ p.web_site }}">
                             <i class="fas fa-external-link-alt fa-lg"></i>
                         </a>
                     </div>
@@ -70,9 +68,10 @@
             <div class="col-md-8 d-md-block collapse" *ngIf="i | esImpar">
                 <ngx-gallery [options]="galleryOptions" [images]="p.album" class="ngx-gallery"></ngx-gallery>
             </div>
+
         </div>
     </div>
-    
+
 </div>
 
 <app-footer></app-footer>

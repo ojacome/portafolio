@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgxGalleryAnimation, NgxGalleryOptions } from '@kolkov/ngx-gallery';
+import { NgsRevealConfig } from 'ngx-scrollreveal';
 import { Proyect } from 'src/app/models/proyect.model';
 import { ProyectsService } from 'src/app/services/proyects.service';
 
@@ -17,8 +18,11 @@ export class PortfolioComponent implements OnInit {
   
 
   constructor(
-    private proyectSvc: ProyectsService
-  ) { }
+    private proyectSvc: ProyectsService, 
+    public config:      NgsRevealConfig
+  ) { 
+    config.duration = 1500;  
+  }
 
   ngOnInit(): void {    
     this.proyects = this.proyectSvc.proyects;
