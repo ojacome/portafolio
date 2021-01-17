@@ -22,6 +22,8 @@ export class PortfolioComponent implements OnInit {
     public config:      NgsRevealConfig
   ) { 
     config.duration = 1500;  
+
+    this.cargarProyectos();
   }
 
   ngOnInit(): void {    
@@ -56,4 +58,12 @@ export class PortfolioComponent implements OnInit {
     ];
     
   }
+
+
+  cargarProyectos(){
+    this.proyectSvc.getProyects()
+    .subscribe( res => this.proyects = res );
+  }
+
+  
 }
