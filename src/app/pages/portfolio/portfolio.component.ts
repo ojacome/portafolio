@@ -14,6 +14,8 @@ export class PortfolioComponent implements OnInit {
 
   public proyects: Proyect[];
   public galleryOptions: NgxGalleryOptions[];
+  public cargando: boolean;
+  public errorP: boolean = false;
 
   
 
@@ -61,8 +63,18 @@ export class PortfolioComponent implements OnInit {
 
 
   cargarProyectos(){
+    this.cargando = true;
+
     this.proyectSvc.getProyects()
-    .subscribe( res => this.proyects = res );
+    .subscribe( proyects => {
+      this.cargando = false;
+      this.proyects = proyects
+    },
+    error => {
+      this.cargando = false;
+      this.errorP = true;
+      console.log(error.error.msg);      
+    } );
   }
 
   
