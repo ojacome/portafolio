@@ -18,17 +18,8 @@
     <!-- cargando -->
     <app-cargando *ngIf="cargando"></app-cargando>
 
-    <!-- Mensaje de Error -->
-    <div class="alert alert-danger text-long" role="alert" *ngIf="errorP">
-        Ups! Algo inesperado ha sucedido, inténtalo más tarde.
-        <br>
-        Tambien puedes revisar mis proyectos desde aqui 
-        <a 
-        target="_blank"
-        href="https://github.com/ojacome">
-            <i class="fab fa-github fa-lg"></i>
-        </a>
-    </div>
+    <!-- Mensaje de Error -->    
+    <app-error-generico *ngIf="errorP"></app-error-generico>
 
     <!-- for de los proyectos -->
     <div class="section " *ngFor="let p of proyects; index as i;">
@@ -88,6 +79,14 @@
         </div>
     </div>
 
+    <!-- paginacion -->
+    <div class="row mb-5" *ngIf="proyectSvc.responseProyect">
+        <div class="col-md-6 mx-auto text-center" *ngIf="proyectSvc.responseProyect.proyects.nextPage">
+            <button (click)="cargarProyectos()" type="button" class="btn btn-outline-primary btn-lg">
+                Más proyectos
+            </button>
+        </div>
+    </div>
 </div>
 
 <app-footer></app-footer>

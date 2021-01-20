@@ -20,7 +20,7 @@ export class PortfolioComponent implements OnInit {
   
 
   constructor(
-    private proyectSvc: ProyectsService, 
+    public proyectSvc: ProyectsService, 
     public config:      NgsRevealConfig
   ) { 
     config.duration = 1500;  
@@ -28,8 +28,7 @@ export class PortfolioComponent implements OnInit {
     this.cargarProyectos();
   }
 
-  ngOnInit(): void {    
-    this.proyects = this.proyectSvc.proyects;
+  ngOnInit(): void {        
 
     this.galleryOptions = [
       {
@@ -66,16 +65,16 @@ export class PortfolioComponent implements OnInit {
     this.cargando = true;
 
     this.proyectSvc.getProyects()
-    .subscribe( proyects => {
+    .subscribe( res => {
       this.cargando = false;
-      this.proyects = proyects
+      this.proyects = res;      
     },
     error => {
       this.cargando = false;
       this.errorP = true;
-      console.log(error.error.msg);      
+      console.log(error);      
     } );
-  }
 
+  }  
   
 }
