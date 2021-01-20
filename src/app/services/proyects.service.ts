@@ -3,15 +3,15 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { Proyect } from '../models/proyect.model';
-import { ResProyect } from '../models/resProyect';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProyectsService {
 
-  public responseProyect : ResProyect;
-  public proyects: Proyect[] = [];
+  
+  public nextPage: number;
+
 
   constructor(
     private http: HttpClient
@@ -21,22 +21,21 @@ export class ProyectsService {
 
 
   
-  getProyects(){
+  getProyects() : Observable< Proyect[] >{
     const url = 'http://localhost:3000/api/proyects';
     const params = new HttpParams()
                   .set(
                     'page', 
-                    this.responseProyect === undefined || this.responseProyect === null 
+                    this.nextPage === undefined || this.nextPage === null 
                     ? '1' 
-                    : this.responseProyect.proyects.nextPage.toString()
+                    : this.nextPage.toString()
                     );
 
     return this.http.get( url , { params })
     .pipe( 
-      map( (res : ResProyect) => {
-        this.responseProyect = res; 
-        this.proyects.push( ...res.proyects.docs );
-        return this.proyects;
+      map( (res : any) => {
+        this.nextPage = res.proyects.nextPage;         
+        return res.proyects.docs;
       }))
   }
 

@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { NgxGalleryAnimation, NgxGalleryOptions } from '@kolkov/ngx-gallery';
-import { NgsRevealConfig } from 'ngx-scrollreveal';
 import { Proyect } from 'src/app/models/proyect.model';
 import { ProyectsService } from 'src/app/services/proyects.service';
 
@@ -12,7 +11,7 @@ import { ProyectsService } from 'src/app/services/proyects.service';
 })
 export class PortfolioComponent implements OnInit {
 
-  public proyects: Proyect[];
+  public proyects: Proyect[] = [];
   public galleryOptions: NgxGalleryOptions[];
   public cargando: boolean;
   public errorP: boolean = false;
@@ -21,10 +20,8 @@ export class PortfolioComponent implements OnInit {
 
   constructor(
     public proyectSvc: ProyectsService, 
-    public config:      NgsRevealConfig
-  ) { 
-    config.duration = 1500;  
-
+    
+  ) {      
     this.cargarProyectos();
   }
 
@@ -56,8 +53,7 @@ export class PortfolioComponent implements OnInit {
         breakpoint: 400,
         preview: false
       }
-    ];
-    
+    ];    
   }
 
 
@@ -65,9 +61,9 @@ export class PortfolioComponent implements OnInit {
     this.cargando = true;
 
     this.proyectSvc.getProyects()
-    .subscribe( res => {
+    .subscribe( (res: Proyect[]) => {
       this.cargando = false;
-      this.proyects = res;      
+      this.proyects.push( ...res);      
     },
     error => {
       this.cargando = false;
