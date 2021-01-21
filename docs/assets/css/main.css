@@ -29,6 +29,11 @@ footer {
     border-bottom: 2px solid #f25757;
 }
 
+.navbar-nav{
+    flex-direction: row !important;
+    justify-content: center !important;
+}
+
 .h-link {
     width: 10%;
     border-bottom: 2px solid transparent;
@@ -56,5 +61,128 @@ footer {
 }
 
 .ngx-gallery { 
-    display: inline-block;         
+    display: inline-block;    
+    border-radius: 0.3rem !important;
+    border: 2px solid #31333d !important;    
 }
+
+.application-loading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.application-loading-box {
+    width: 300px;
+    margin: 5px;
+    text-align: center;
+  }
+ 
+/* Animaciones */
+:root {
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+  }
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-duration: var(--animate-duration);
+    animation-duration: var(--animate-duration);
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@media screen and (min-width: 768px) {
+      
+    .animated.delay-1s {
+        animation-delay: var(--animate-delay);
+    }
+    
+    .animated.delay-2s {
+        animation-delay: calc(var(--animate-delay) * 2);
+    }
+    
+    .animated.delay-3s {
+        animation-delay: calc(var(--animate-delay) * 3);
+    }
+    
+    .animated.delay-4s {
+        animation-delay: calc(var(--animate-delay) * 4);
+    }
+    
+    .animated.delay-5s {
+        animation-delay: calc(var(--animate-delay) * 5);
+    }
+    
+    .animated.faster {
+        animation-duration: calc(var(--animate-duration) / 2);
+    }
+    
+    .animated.fast {
+        animation-duration: calc(var(--animate-duration) * 0.8);
+    }
+    
+    .animated.slow {
+        animation-duration: calc(var(--animate-duration) * 2);
+    }
+    
+    .animated.slower {
+        animation-duration: calc(var(--animate-duration) * 3);
+    }  
+
+    .fadeInDown {
+        animation-name: fadeInDown;
+    }
+
+    .fadeIn {
+        animation-name: fadeIn;
+    }
+
+    .fadeInUp {
+        animation-name: fadeInUp;
+    }
+}
+
+  
+@keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+}
+}
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+}
+  
+  
+  
+  
+  
