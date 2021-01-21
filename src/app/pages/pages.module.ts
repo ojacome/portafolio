@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
 
 //paquetes externos
 import { NgxGalleryModule } from '@kolkov/ngx-gallery';
@@ -10,6 +9,7 @@ import {NgsRevealModule} from 'ngx-scrollreveal';
 import { SharedModule } from '../shared/shared.module';
 import { PipesModule } from '../pipes/pipes.module';
 import { ComponentsModule } from '../components/components.module';
+import { PagesRoutingModule } from './pages-routing.module'; 
 
 //componentes
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
@@ -25,7 +25,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
   ],
   imports: [
     CommonModule,
-    RouterModule,
+    PagesRoutingModule,
     NgxGalleryModule,
     NgsRevealModule,
     ComponentsModule,

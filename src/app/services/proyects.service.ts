@@ -2,7 +2,9 @@ import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
+import { environment } from 'src/environments/environment';
 import { Proyect } from '../models/proyect.model';
+const url_api = environment.URL_API;
 
 @Injectable({
   providedIn: 'root'
@@ -22,7 +24,7 @@ export class ProyectsService {
 
   
   getProyects() : Observable< Proyect[] >{
-    const url = 'http://localhost:3000/api/proyects';
+    const url = `${url_api}/proyects`;
     const params = new HttpParams()
                   .set(
                     'page', 
