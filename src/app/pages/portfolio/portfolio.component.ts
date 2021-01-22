@@ -15,14 +15,16 @@ export class PortfolioComponent implements OnInit {
   public galleryOptions: NgxGalleryOptions[];
   public cargando: boolean;
   public errorP: boolean = false;
-
+  public nextPage: string;
   
 
+  
   constructor(
     public proyectSvc: ProyectsService, 
     
   ) {      
     this.cargarProyectos();
+    this.nextPage = '1';
   }
 
   ngOnInit(): void {        
@@ -60,10 +62,11 @@ export class PortfolioComponent implements OnInit {
   cargarProyectos(){
     this.cargando = true;
 
-    this.proyectSvc.getProyects()
-    .subscribe( (res: Proyect[]) => {
+    this.proyectSvc.getProyects(this.nextPage)
+    .subscribe( (res: any) => {
       this.cargando = false;
-      this.proyects.push( ...res);      
+      this.nextPage = res.nextPage;
+      this.proyects.push( ...res.docs);      
     },
     error => {
       this.cargando = false;

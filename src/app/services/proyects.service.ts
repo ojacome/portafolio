@@ -11,34 +11,21 @@ const url_api = environment.URL_API;
 })
 export class ProyectsService {
 
-  
-  public nextPage: number;
-
+    
 
   constructor(
     private http: HttpClient
-  ) { 
-    
-  }
+  ) { }
 
 
   
-  getProyects() : Observable< Proyect[] >{
+  getProyects( nextPage = '1' ){
     const url = `${url_api}/proyects`;
     const params = new HttpParams()
-                  .set(
-                    'page', 
-                    this.nextPage === undefined || this.nextPage === null 
-                    ? '1' 
-                    : this.nextPage.toString()
-                    );
+                  .set( 'page', nextPage );
 
     return this.http.get( url , { params })
-    .pipe( 
-      map( (res : any) => {
-        this.nextPage = res.proyects.nextPage;         
-        return res.proyects.docs;
-      }))
+    .pipe( map( (res : any) => res.proyects ))
   }
 
   

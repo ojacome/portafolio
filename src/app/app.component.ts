@@ -11,12 +11,13 @@ import { filter, map } from 'rxjs/operators';
 export class AppComponent  implements OnDestroy, AfterViewInit {
   
   tituloSubs$: Subscription;
-  
+  public disponible: boolean = false;
   
   constructor(   
     private router: Router,
     private renderer: Renderer2 )
   {    
+    this.disponible = false;
     this.tituloSubs$ = this.getDataRuta()
     .subscribe( ({title}) => {      
       document.title = 'Jesús Olmedo | '+ title;
@@ -25,8 +26,11 @@ export class AppComponent  implements OnDestroy, AfterViewInit {
 
 
   ngAfterViewInit() {
-    let loader = this.renderer.selectRootElement('#loader');
-    this.renderer.setStyle(loader, 'display', 'none');
+    setTimeout( () => {
+      let loader = this.renderer.selectRootElement('.application-loading-container');
+      this.renderer.setStyle(loader, 'display', 'none');
+      this.disponible = true;
+    } , 3000)
   }
 
   
