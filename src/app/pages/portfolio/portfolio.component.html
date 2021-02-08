@@ -80,7 +80,7 @@
     </div>
 
     <!-- paginacion -->
-    <div class="row mb-5" *ngIf="nextPage !== '1'">
+    <div class="row mb-5" *ngIf="nextPage !== '1' && nextPage">
         <div class="col-md-6 mx-auto text-center">
             <button (click)="cargarProyectos()" type="button" class="btn btn-outline-primary btn-lg">
                 Más proyectos

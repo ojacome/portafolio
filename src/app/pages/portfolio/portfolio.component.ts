@@ -23,8 +23,8 @@ export class PortfolioComponent implements OnInit {
     public proyectSvc: ProyectsService, 
     
   ) {      
-    this.cargarProyectos();
     this.nextPage = '1';
+    this.cargarProyectos();
   }
 
   ngOnInit(): void {        
@@ -64,6 +64,8 @@ export class PortfolioComponent implements OnInit {
 
     this.proyectSvc.getProyects(this.nextPage)
     .subscribe( (res: any) => {
+      console.log(res);
+      
       this.cargando = false;
       this.nextPage = res.nextPage;
       this.proyects.push( ...res.docs);      

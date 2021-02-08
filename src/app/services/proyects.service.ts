@@ -19,7 +19,7 @@ export class ProyectsService {
 
 
   
-  getProyects( nextPage = '1' ){
+  getProyects( nextPage  ){
     const url = `${url_api}/proyects`;
     const params = new HttpParams()
                   .set( 'page', nextPage );
