@@ -10,6 +10,9 @@ MIT
 @angular/router
 MIT
 
+@angular/service-worker
+MIT
+
 @kolkov/ngx-gallery
 MIT
 MIT License
