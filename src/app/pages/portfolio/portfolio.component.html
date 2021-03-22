@@ -83,7 +83,8 @@
     <div class="row mb-5" *ngIf="nextPage !== '1' && nextPage">
         <div class="col-md-6 mx-auto text-center">
             <button (click)="cargarProyectos()" type="button" class="btn btn-outline-primary btn-lg">
-                Más proyectos
+                Más proyectos 
+                <i *ngIf="cargando" class="fas fa-circle-notch fa-spin"></i>
             </button>
         </div>
     </div>

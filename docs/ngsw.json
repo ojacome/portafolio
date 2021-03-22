@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1613421038238,
+  "timestamp": 1616376447793,
   "index": "/portafolio/index.html",
   "assetGroups": [
     {
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "/portafolio/4.b80d2e199e41dfb9dfea.js",
+        "/portafolio/4.14246c2a48017438870f.js",
         "/portafolio/favicon.ico",
         "/portafolio/index.html",
         "/portafolio/main.c478da0a46b3e012a004.js",
         "/portafolio/manifest.webmanifest",
         "/portafolio/polyfills.8c151b8375e767ff858f.js",
-        "/portafolio/runtime.e6c136a65145a4b489f8.js",
+        "/portafolio/runtime.b4da7d855805404353b9.js",
         "/portafolio/scripts.446166084c8cf8de5394.js",
         "/portafolio/styles.f531bc9ea0fd817c317a.css"
       ],
@@ -56,7 +56,7 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/portafolio/4.b80d2e199e41dfb9dfea.js": "80936367bf35643b6ae53c34c4d01cb5887cfb86",
+    "/portafolio/4.14246c2a48017438870f.js": "610f302eed7383aea901665ef8b09b2a5658614a",
     "/portafolio/assets/css/hover-min.css": "dc6484d07f8919168adec84b9adae52c7b496d9f",
     "/portafolio/assets/css/main.css": "35611a7d472aed5e026e0722ea2b41945d24ae37",
     "/portafolio/assets/fonts/generator_config.txt": "d590b7bb9fd53b07d3e95f869357ce2949bb7104",
@@ -75,13 +75,13 @@
     "/portafolio/assets/icons/ios/icon-152x152.png": "f97e58e78dd4271489113ee8581cf33d06eb1940",
     "/portafolio/assets/icons/ios/icon-167.png": "998c8f85d6d6edf6ff1c4be4b3c9c34442f961e8",
     "/portafolio/assets/icons/ios/icon-180.png": "1d5c9a7660cee3228ba8a7e2cf899a2bce8e46b5",
-    "/portafolio/assets/img/hoja_de_vida.jpg": "55c0bc1dd7ba367e9b77c11e573867dfffa6fd1e",
+    "/portafolio/assets/img/hoja_de_vida.jpg": "1c083013242c2ec3f2668d920552b41dc1d39a58",
     "/portafolio/favicon.ico": "f5a726715ca63e8bc99b2090651428422dd0656e",
-    "/portafolio/index.html": "cdd74bbf5dd9a4e8940def4529bb0608088d4f3d",
+    "/portafolio/index.html": "a3ef1ff74cb6398eb1efa742ae8e33c1a00676da",
     "/portafolio/main.c478da0a46b3e012a004.js": "56e2c70aa21fd75aaa9993b226eb9cace365cbba",
     "/portafolio/manifest.webmanifest": "07580d3ecfc7e0163fd9a0a48e7d0364ecd21752",
     "/portafolio/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
-    "/portafolio/runtime.e6c136a65145a4b489f8.js": "d670c7cb580dc4c6adf2e98867a3ad7e5d14d652",
+    "/portafolio/runtime.b4da7d855805404353b9.js": "f1bdedc39c5bbc8750d1fc5beee83ee2a8dc98a0",
     "/portafolio/scripts.446166084c8cf8de5394.js": "9b680e597cd9a1e7b4a0a6fee436da0ff465f61d",
     "/portafolio/styles.f531bc9ea0fd817c317a.css": "4a105066c5574b62ba921a4c4334ff95bb366064"
   },
