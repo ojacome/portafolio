@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1616376447793,
+  "timestamp": 1617558089699,
   "index": "/portafolio/index.html",
   "assetGroups": [
     {
@@ -14,7 +14,7 @@
         "/portafolio/4.14246c2a48017438870f.js",
         "/portafolio/favicon.ico",
         "/portafolio/index.html",
-        "/portafolio/main.c478da0a46b3e012a004.js",
+        "/portafolio/main.8bd67cee98cfa58d347f.js",
         "/portafolio/manifest.webmanifest",
         "/portafolio/polyfills.8c151b8375e767ff858f.js",
         "/portafolio/runtime.b4da7d855805404353b9.js",
@@ -54,7 +54,23 @@
       "patterns": []
     }
   ],
-  "dataGroups": [],
+  "dataGroups": [
+    {
+      "name": "api",
+      "patterns": [
+        "https:\\/\\/jesus-portafolio\\.herokuapp\\.com\\/.*",
+        "http:\\/\\/localhost:3000\\/.*"
+      ],
+      "strategy": "performance",
+      "maxSize": 3,
+      "maxAge": 604800000,
+      "timeoutMs": 2000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
   "hashTable": {
     "/portafolio/4.14246c2a48017438870f.js": "610f302eed7383aea901665ef8b09b2a5658614a",
     "/portafolio/assets/css/hover-min.css": "dc6484d07f8919168adec84b9adae52c7b496d9f",
@@ -77,8 +93,8 @@
     "/portafolio/assets/icons/ios/icon-180.png": "1d5c9a7660cee3228ba8a7e2cf899a2bce8e46b5",
     "/portafolio/assets/img/hoja_de_vida.jpg": "1c083013242c2ec3f2668d920552b41dc1d39a58",
     "/portafolio/favicon.ico": "f5a726715ca63e8bc99b2090651428422dd0656e",
-    "/portafolio/index.html": "a3ef1ff74cb6398eb1efa742ae8e33c1a00676da",
-    "/portafolio/main.c478da0a46b3e012a004.js": "56e2c70aa21fd75aaa9993b226eb9cace365cbba",
+    "/portafolio/index.html": "c453a1e765ad3f5896bb2ac1f07d0fe04a35a87b",
+    "/portafolio/main.8bd67cee98cfa58d347f.js": "434a2e1a0d7f9d57bd6b0c398d38730c104c4d76",
     "/portafolio/manifest.webmanifest": "07580d3ecfc7e0163fd9a0a48e7d0364ecd21752",
     "/portafolio/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "/portafolio/runtime.b4da7d855805404353b9.js": "f1bdedc39c5bbc8750d1fc5beee83ee2a8dc98a0",
