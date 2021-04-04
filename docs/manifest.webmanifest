@@ -4,8 +4,8 @@
   "theme_color": "#1b1f2d",
   "background_color": "#1b1f2d",
   "display": "standalone",
-  "scope": "/portafolio",
-  "start_url": "/index.html",
+  "scope": "./portafolio",
+  "start_url": "./",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
