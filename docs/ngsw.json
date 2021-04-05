@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1617562985847,
+  "timestamp": 1617582814134,
   "index": "/portafolio/index.html",
   "assetGroups": [
     {
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "/portafolio/4.24589b277ca77d3bbcd9.js",
+        "/portafolio/4.5b10aa98d5dc9e2e83ac.js",
         "/portafolio/favicon.ico",
         "/portafolio/index.html",
-        "/portafolio/main.8bd67cee98cfa58d347f.js",
+        "/portafolio/main.c9f450eb341f25b1f164.js",
         "/portafolio/manifest.webmanifest",
         "/portafolio/polyfills.8c151b8375e767ff858f.js",
-        "/portafolio/runtime.db417cfd4ca716f5ab52.js",
+        "/portafolio/runtime.ad4196ace31a88a75c73.js",
         "/portafolio/scripts.446166084c8cf8de5394.js",
         "/portafolio/styles.f531bc9ea0fd817c317a.css"
       ],
@@ -72,7 +72,7 @@
     }
   ],
   "hashTable": {
-    "/portafolio/4.24589b277ca77d3bbcd9.js": "4c685acb49b27e93e25967e99ad5229abbb7dd0d",
+    "/portafolio/4.5b10aa98d5dc9e2e83ac.js": "31a28f2ab0766b4060438ba602048d38d6ecef9c",
     "/portafolio/assets/css/hover-min.css": "dc6484d07f8919168adec84b9adae52c7b496d9f",
     "/portafolio/assets/css/main.css": "35611a7d472aed5e026e0722ea2b41945d24ae37",
     "/portafolio/assets/fonts/generator_config.txt": "d590b7bb9fd53b07d3e95f869357ce2949bb7104",
@@ -93,11 +93,11 @@
     "/portafolio/assets/icons/ios/icon-180.png": "1d5c9a7660cee3228ba8a7e2cf899a2bce8e46b5",
     "/portafolio/assets/img/hoja_de_vida.jpg": "1c083013242c2ec3f2668d920552b41dc1d39a58",
     "/portafolio/favicon.ico": "f5a726715ca63e8bc99b2090651428422dd0656e",
-    "/portafolio/index.html": "c286ce8c693007ad9e7d407e0a25106ce2b52e01",
-    "/portafolio/main.8bd67cee98cfa58d347f.js": "434a2e1a0d7f9d57bd6b0c398d38730c104c4d76",
-    "/portafolio/manifest.webmanifest": "9a407ba8d97f633c533a789eef2cce8e382bf905",
+    "/portafolio/index.html": "dabad01d8a5364279de33fadfa65e2b603b6266c",
+    "/portafolio/main.c9f450eb341f25b1f164.js": "bc182c6a69e84a4408754768f62059a718d9fb08",
+    "/portafolio/manifest.webmanifest": "07580d3ecfc7e0163fd9a0a48e7d0364ecd21752",
     "/portafolio/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
-    "/portafolio/runtime.db417cfd4ca716f5ab52.js": "c8b44888e98d9543703c801fd7e8d7dfe72e7bfd",
+    "/portafolio/runtime.ad4196ace31a88a75c73.js": "da4e98d8c0e930edcf75d98391cad928f701f597",
     "/portafolio/scripts.446166084c8cf8de5394.js": "9b680e597cd9a1e7b4a0a6fee436da0ff465f61d",
     "/portafolio/styles.f531bc9ea0fd817c317a.css": "4a105066c5574b62ba921a4c4334ff95bb366064"
   },

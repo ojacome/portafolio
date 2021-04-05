@@ -61,12 +61,18 @@
                         'flex-row':             i | esImpar
                     }">
                     <div class="p-3" *ngIf="p.github">
-                        <a title="Proyecto en GitHub" target="_blank" href="{{ p.github }}">
+                        <a rel="noreferrer" 
+                        title="Proyecto en GitHub" 
+                        target="_blank" 
+                        href="{{ p.github }}">
                             <i class="fab fa-github fa-lg"></i>
                         </a>
                     </div>
                     <div class="p-3" *ngIf="p.web_site">
-                        <a title="Proyecto en la web" target="_blank" href="{{ p.web_site }}">
+                        <a rel="noreferrer" 
+                        title="Proyecto en la web" 
+                        target="_blank" 
+                        href="{{ p.web_site }}">
                             <i class="fas fa-external-link-alt fa-lg"></i>
                         </a>
                     </div>
