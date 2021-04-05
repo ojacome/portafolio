@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1617583749390,
+  "timestamp": 1617584972640,
   "index": "/portafolio/index.html",
   "assetGroups": [
     {
@@ -95,7 +95,7 @@
     "/portafolio/favicon.ico": "f5a726715ca63e8bc99b2090651428422dd0656e",
     "/portafolio/index.html": "dabad01d8a5364279de33fadfa65e2b603b6266c",
     "/portafolio/main.c9f450eb341f25b1f164.js": "bc182c6a69e84a4408754768f62059a718d9fb08",
-    "/portafolio/manifest.webmanifest": "652b81d8cfa14a82bcf4452eaa353f9b7f2f2141",
+    "/portafolio/manifest.webmanifest": "07580d3ecfc7e0163fd9a0a48e7d0364ecd21752",
     "/portafolio/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "/portafolio/runtime.ad4196ace31a88a75c73.js": "da4e98d8c0e930edcf75d98391cad928f701f597",
     "/portafolio/scripts.446166084c8cf8de5394.js": "9b680e597cd9a1e7b4a0a6fee436da0ff465f61d",
