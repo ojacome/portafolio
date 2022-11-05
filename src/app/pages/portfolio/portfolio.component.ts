@@ -24,7 +24,7 @@ export class PortfolioComponent implements OnInit {
     
   ) {      
     this.nextPage = '1';
-    this.cargarProyectos();
+    this.cargarProyectos2();
   }
 
   ngOnInit(): void {        
@@ -59,6 +59,7 @@ export class PortfolioComponent implements OnInit {
   }
 
 
+
   cargarProyectos(){
     this.cargando = true;
 
@@ -69,6 +70,24 @@ export class PortfolioComponent implements OnInit {
       this.cargando = false;
       this.nextPage = res.nextPage;
       this.proyects.push( ...res.docs);      
+    },
+    error => {
+      this.cargando = false;
+      this.errorP = true;
+      console.log(error);      
+    } );
+
+  }  
+  cargarProyectos2(){
+    this.cargando = true;
+
+    this.proyectSvc.getProyectsFile()
+    .subscribe( (res: any) => {
+      console.log(res);
+      
+      this.cargando = false;
+      this.nextPage = null;
+      this.proyects.push(...res);      
     },
     error => {
       this.cargando = false;
