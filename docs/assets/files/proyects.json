@@ -1,0 +1,462 @@
+[{
+  "_id": {
+    "$oid": "600490aa268f8227ec877bda"
+  },
+  "title": "Spotify Clone",
+  "description": "Aprovecho el api rest de Spotify para crear una aplicación demo, la cual puedo reproducir música, buscar artistas, últimos lanzamientos y más.",
+  "type": "Frontend",
+  "technologies": [
+    "Angular 11"
+  ],
+  "album": [
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1610215422/portfolio/spoti_dh9xzo.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1610215422/portfolio/spoti_dh9xzo.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1610215422/portfolio/spoti_dh9xzo.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1610215420/portfolio/spoti2_bi05cr.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1610215420/portfolio/spoti2_bi05cr.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1610215420/portfolio/spoti2_bi05cr.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1610215420/portfolio/spoti3_fegbs6.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1610215420/portfolio/spoti3_fegbs6.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1610215420/portfolio/spoti3_fegbs6.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1610215420/portfolio/spoti4_yds0gx.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1610215420/portfolio/spoti4_yds0gx.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1610215420/portfolio/spoti4_yds0gx.png"
+    }
+  ],
+  "github": "https://github.com/ojacome/spotiApp",
+  "important": 6
+},{
+  "_id": {
+    "$oid": "600490aa268f8227ec877bdc"
+  },
+  "title": "FIFA 2021 Clone.",
+  "description": "Aplicación clone de Fifa 2021, con páginas para registro, inicio de sesión y perfil, responsive design en todas ellas.",
+  "type": "Frontend y Backend",
+  "technologies": [
+    "Angular 11",
+    "Node js",
+    "Express",
+    "MongoDB"
+  ],
+  "github": "https://github.com/ojacome/solunova-front",
+  "web_site": "https://fifa-ng.herokuapp.com/login",
+  "album": [
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1642372841/portfolio/fifa-app/fifa2_pzt4j6.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1642372841/portfolio/fifa-app/fifa2_pzt4j6.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1642372841/portfolio/fifa-app/fifa2_pzt4j6.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1642372842/portfolio/fifa-app/fifa3_pt8ume.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1642372842/portfolio/fifa-app/fifa3_pt8ume.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1642372842/portfolio/fifa-app/fifa3_pt8ume.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1642372839/portfolio/fifa-app/fifa1_scfe8c.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1642372839/portfolio/fifa-app/fifa1_scfe8c.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1642372839/portfolio/fifa-app/fifa1_scfe8c.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1642372839/portfolio/fifa-app/fifa4_cyps5a.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1642372839/portfolio/fifa-app/fifa4_cyps5a.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1642372839/portfolio/fifa-app/fifa4_cyps5a.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1642372840/portfolio/fifa-app/fifa5_lycopa.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1642372840/portfolio/fifa-app/fifa5_lycopa.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1642372840/portfolio/fifa-app/fifa5_lycopa.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1642372840/portfolio/fifa-app/fifa6_ffk4gj.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1642372840/portfolio/fifa-app/fifa6_ffk4gj.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1642372840/portfolio/fifa-app/fifa6_ffk4gj.png"
+    }
+  ],
+  "important": 10
+},{
+  "_id": {
+    "$oid": "600490aa268f8227ec877bd7"
+  },
+  "title": "Kushki Pasarela",
+  "web_site": "https://docs.kushki.com/ec",
+  "description": "Kushki brinda servicios de pasarela de pagos en toda América Latina. Trabajo con varios servicios de Aws como Lambdas, DynamoDb, CloudWacth, etc. Se le dá mucha importancia también a las pruebas unitarias. Se trabaja con norma ISO 8583.",
+  "type": "Frontend y Backend",
+  "technologies": [
+    "Go",
+    "Node js",
+    "React",
+    "Angular",
+    "Aws"
+  ],
+  "album": [
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1642297150/portfolio/kushki-app/kushki1_jjhpx4.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1642297150/portfolio/kushki-app/kushki1_jjhpx4.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1642297150/portfolio/kushki-app/kushki1_jjhpx4.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1642297150/portfolio/kushki-app/kushki2_lefmy4.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1642297150/portfolio/kushki-app/kushki2_lefmy4.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1642297150/portfolio/kushki-app/kushki2_lefmy4.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1642297151/portfolio/kushki-app/kushki3_uqp3uc.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1642297151/portfolio/kushki-app/kushki3_uqp3uc.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1642297151/portfolio/kushki-app/kushki3_uqp3uc.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1642297152/portfolio/kushki-app/kushki4_nxisit.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1642297152/portfolio/kushki-app/kushki4_nxisit.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1642297152/portfolio/kushki-app/kushki4_nxisit.png"
+    }
+  ],
+  "important": 3
+},{
+  "_id": {
+    "$oid": "600490aa268f8227ec877bd6"
+  },
+  "title": "Sistema de Incidencias",
+  "description": "Cliente: Conecel. La aplicación consiste en el registro de incidencias que llegan al centro de atención de Claro. Posee varios módulos como Roles, Reportes, Servicios, Transacciones, Dashboard y Chat en tiempo real.",
+  "type": "Frontend y Backend",
+  "technologies": [
+    "Angular 9",
+    "Node js",
+    "Express",
+    "SqlServer"
+  ],
+  "album": [
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1610208763/portfolio/crm_ukzj8k.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1610208763/portfolio/crm_ukzj8k.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1610208763/portfolio/crm_ukzj8k.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1610208764/portfolio/crm2_jvspna.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1610208764/portfolio/crm2_jvspna.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1610208764/portfolio/crm2_jvspna.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1610208764/portfolio/crm3_akelrd.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1610208764/portfolio/crm3_akelrd.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1610208764/portfolio/crm3_akelrd.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1610208765/portfolio/crm4_xbzjc4.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1610208765/portfolio/crm4_xbzjc4.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1610208765/portfolio/crm4_xbzjc4.png"
+    }
+  ],
+  "important": 1
+},{
+  "_id": {
+    "$oid": "600490aa268f8227ec877bdd"
+  },
+  "title": "Blog.",
+  "description": "Aplicación que permite crear, editar, buscar y eliminar publicaciones. Gestión de imágenes.",
+  "type": "Frontend y Backend",
+  "technologies": [
+    "React",
+    "Node js",
+    "Express",
+    "MongoDB"
+  ],
+  "github": "https://github.com/ojacome/blog-react",
+  "album": [
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1610208760/portfolio/blog-rc_lr0wog.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1610208760/portfolio/blog-rc_lr0wog.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1610208760/portfolio/blog-rc_lr0wog.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1610208765/portfolio/blog-rc2_gss2g0.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1610208765/portfolio/blog-rc2_gss2g0.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1610208765/portfolio/blog-rc2_gss2g0.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1610208760/portfolio/blog-rc3_ereqbr.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1610208760/portfolio/blog-rc3_ereqbr.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1610208760/portfolio/blog-rc3_ereqbr.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1610208760/portfolio/blog-rc4_jxypqd.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1610208760/portfolio/blog-rc4_jxypqd.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1610208760/portfolio/blog-rc4_jxypqd.png"
+    }
+  ],
+  "important": 11
+},{
+  "_id": {
+    "$oid": "600490aa268f8227ec877bd8"
+  },
+  "title": "Sistema de Hospitales",
+  "description": "Tiene como objetivo registrar hospitales con los médicos que trabajan en ellos, mantenimientos de los módulos de hospitales, médicos y usuarios.",
+  "type": "Frontend y Backend",
+  "technologies": [
+    "Angular 9",
+    "Node js",
+    "Express",
+    "MongoDB"
+  ],
+  "web_site": "https://adminpro-ng.herokuapp.com/login",
+  "album": [
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1610208762/portfolio/adm4_zcm10a.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1610208762/portfolio/adm4_zcm10a.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1610208762/portfolio/adm4_zcm10a.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1610208758/portfolio/adm3_yfz0gy.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1610208758/portfolio/adm3_yfz0gy.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1610208758/portfolio/adm3_yfz0gy.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1610208757/portfolio/adm5_vewvgx.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1610208757/portfolio/adm5_vewvgx.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1610208757/portfolio/adm5_vewvgx.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1610208755/portfolio/adm_uvhcig.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1610208755/portfolio/adm_uvhcig.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1610208755/portfolio/adm_uvhcig.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1610208756/portfolio/adm2_hngwlb.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1610208756/portfolio/adm2_hngwlb.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1610208756/portfolio/adm2_hngwlb.png"
+    }
+  ],
+  "important": 4
+},{
+  "_id": {
+    "$oid": "600490aa268f8227ec877bdb"
+  },
+  "title": "Inventario",
+  "description": "Sistema que permite registrar categorías y productos con su stock, así como actualizarlos. También cuenta con un tarea programada que lee archivo txt y guarda en base de datos.",
+  "type": "Frontend y Backend",
+  "technologies": [
+    "Vue",
+    "Laravel 8",
+    "MySql"
+  ],
+  "album": [
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1613431330/portfolio/inventario-app/inventario-cate_u5dil0.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1613431330/portfolio/inventario-app/inventario-cate_u5dil0.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1613431330/portfolio/inventario-app/inventario-cate_u5dil0.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1613431330/portfolio/inventario-app/inventario-prod_kxiaeu.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1613431330/portfolio/inventario-app/inventario-prod_kxiaeu.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1613431330/portfolio/inventario-app/inventario-prod_kxiaeu.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1613431330/portfolio/inventario-app/inventario-form_ey9uiw.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1613431330/portfolio/inventario-app/inventario-form_ey9uiw.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1613431330/portfolio/inventario-app/inventario-form_ey9uiw.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1613431330/portfolio/inventario-app/inventario-tasks_qpnfb9.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1613431330/portfolio/inventario-app/inventario-tasks_qpnfb9.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1613431330/portfolio/inventario-app/inventario-tasks_qpnfb9.png"
+    }
+  ],
+  "important": 8,
+  "github": "https://github.com/ojacome/products-vue-lara"
+},{
+  "_id": {
+    "$oid": "600490aa268f8227ec877bd9"
+  },
+  "title": "My Website",
+  "description": "Presentación de proyectos que he realizado, además enlaces a mis redes sociales y a mi hoja de vida. Responsive Design.",
+  "type": "Frontend y Backend",
+  "technologies": [
+    "Angular 11",
+    "PWA",
+    "Express",
+    "MongoDB",
+    "Node js"
+  ],
+  "album": [
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1610911275/portfolio/portafolio-app/portafolio_b2kjvv.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1610911275/portfolio/portafolio-app/portafolio_b2kjvv.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1610911275/portfolio/portafolio-app/portafolio_b2kjvv.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1610911275/portfolio/portafolio-app/portafolio2_m1h4sl.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1610911275/portfolio/portafolio-app/portafolio2_m1h4sl.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1610911275/portfolio/portafolio-app/portafolio2_m1h4sl.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1610911275/portfolio/portafolio-app/portafolio3_r6dqmc.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1610911275/portfolio/portafolio-app/portafolio3_r6dqmc.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1610911275/portfolio/portafolio-app/portafolio3_r6dqmc.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1610911275/portfolio/portafolio-app/portafolio4_m4uva6.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1610911275/portfolio/portafolio-app/portafolio4_m4uva6.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1610911275/portfolio/portafolio-app/portafolio4_m4uva6.png"
+    }
+  ],
+  "github": "https://github.com/ojacome/portafolio",
+  "important": 7
+},{
+  "_id": {
+    "$oid": "600490aa268f8227ec877bde"
+  },
+  "title": "MarketPlace",
+  "description": "Carrito de compras, manejo de roles, para el administrador el mantenimientos de los productos y categorias, para el usuario cliente comprar y pagar los productos por medio de PayPal",
+  "type": "Frontend y Backend",
+  "technologies": [
+    "Auth0",
+    "Blade",
+    "Laravel",
+    "MySql"
+  ],
+  "github": "https://github.com/ojacome/marketplace",
+  "album": [
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1610208759/portfolio/mark3_vfisle.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1610208759/portfolio/mark3_vfisle.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1610208759/portfolio/mark3_vfisle.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1610208755/portfolio/mark_vvhpae.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1610208755/portfolio/mark_vvhpae.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1610208755/portfolio/mark_vvhpae.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1610208759/portfolio/mark2_qe3phn.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1610208759/portfolio/mark2_qe3phn.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1610208759/portfolio/mark2_qe3phn.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1610208758/portfolio/mark5_ebyzmj.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1610208758/portfolio/mark5_ebyzmj.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1610208758/portfolio/mark5_ebyzmj.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1610208756/portfolio/mark4_aptgnh.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1610208756/portfolio/mark4_aptgnh.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1610208756/portfolio/mark4_aptgnh.png"
+    }
+  ],
+  "important": 9
+},{
+  "_id": {
+    "$oid": "601056a310212f263c25453e"
+  },
+  "title": "Informes App",
+  "description": "Consiste en registrar los ingresos y egresos de los usuarios logeados para poder obtener un informe de las ganancias, que son representadas en un tabla y en una gráfica de pastel en tiempo real.",
+  "type": "Frontend",
+  "technologies": [
+    "Angular 11",
+    "Firebase",
+    "Redux",
+    "Ngrx"
+  ],
+  "web_site": "https://informe-ngrx.web.app/login",
+  "album": [
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1613429457/portfolio/informes-app/informe_lcqzcu.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1613429457/portfolio/informes-app/informe_lcqzcu.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1613429457/portfolio/informes-app/informe_lcqzcu.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1613429429/portfolio/informes-app/informe-register_l1fu2n.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1613429429/portfolio/informes-app/informe-register_l1fu2n.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1613429429/portfolio/informes-app/informe-register_l1fu2n.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1613429429/portfolio/informes-app/informe-form_lrg1nn.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1613429429/portfolio/informes-app/informe-form_lrg1nn.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1613429429/portfolio/informes-app/informe-form_lrg1nn.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1613429429/portfolio/informes-app/informe-detalle_val7xm.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1613429429/portfolio/informes-app/informe-detalle_val7xm.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1613429429/portfolio/informes-app/informe-detalle_val7xm.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1613429429/portfolio/informes-app/informe-das_wtj0o1.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1613429429/portfolio/informes-app/informe-das_wtj0o1.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1613429429/portfolio/informes-app/informe-das_wtj0o1.png"
+    }
+  ],
+  "github": "https://github.com/ojacome/informe-ngxr",
+  "important": 5
+},{
+  "_id": {
+    "$oid": "6057e1e24bdcaf40eb6127be"
+  },
+  "title": "Aig Seguros",
+  "description": "Sistema de cotización de seguros de vehículos, Pymes, Viajes y más, también pagos en linea, reportes, historial de ventas y cotizaciones.",
+  "type": "Frontend y backend",
+  "technologies": [
+    "React js",
+    "Redux",
+    "Yii 2",
+    "Aws"
+  ],
+  "web_site": "http://www.portalaig.com",
+  "album": [
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1616373663/portfolio/seguros-app/aig_gkotyc.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1616373663/portfolio/seguros-app/aig_gkotyc.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1616373663/portfolio/seguros-app/aig_gkotyc.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1616373662/portfolio/seguros-app/aig-1_h88vco.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1616373662/portfolio/seguros-app/aig-1_h88vco.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1616373662/portfolio/seguros-app/aig-1_h88vco.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1616373662/portfolio/seguros-app/aig-2_zdni0j.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1616373662/portfolio/seguros-app/aig-2_zdni0j.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1616373662/portfolio/seguros-app/aig-2_zdni0j.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1616373662/portfolio/seguros-app/aig-3_fx7twj.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1616373662/portfolio/seguros-app/aig-3_fx7twj.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1616373662/portfolio/seguros-app/aig-3_fx7twj.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1616373662/portfolio/seguros-app/aig-4_hniq1k.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1616373662/portfolio/seguros-app/aig-4_hniq1k.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1616373662/portfolio/seguros-app/aig-4_hniq1k.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1616373662/portfolio/seguros-app/aig-5_csk9gj.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1616373662/portfolio/seguros-app/aig-5_csk9gj.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1616373662/portfolio/seguros-app/aig-5_csk9gj.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1616373662/portfolio/seguros-app/aig-adm_yrydvu.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1616373662/portfolio/seguros-app/aig-adm_yrydvu.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1616373662/portfolio/seguros-app/aig-adm_yrydvu.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1616373663/portfolio/seguros-app/aig-adm-1_ys1lyd.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1616373663/portfolio/seguros-app/aig-adm-1_ys1lyd.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1616373663/portfolio/seguros-app/aig-adm-1_ys1lyd.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1616373663/portfolio/seguros-app/aig-adm-2_sgeznd.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1616373663/portfolio/seguros-app/aig-adm-2_sgeznd.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1616373663/portfolio/seguros-app/aig-adm-2_sgeznd.png"
+    },
+    {
+      "small": "https://res.cloudinary.com/ojacome/image/upload/v1616373663/portfolio/seguros-app/aig-adm-3_iwc00k.png",
+      "medium": "https://res.cloudinary.com/ojacome/image/upload/v1616373663/portfolio/seguros-app/aig-adm-3_iwc00k.png",
+      "big": "https://res.cloudinary.com/ojacome/image/upload/v1616373663/portfolio/seguros-app/aig-adm-3_iwc00k.png"
+    }
+  ],
+  "important": 2
+}]
